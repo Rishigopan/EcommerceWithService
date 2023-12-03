@@ -1,0 +1,1050 @@
+body {
+    background-color: #efefef;
+}
+
+#Content {
+    margin-top: 6rem;
+}
+
+.navbar {
+    background-color: #f50414;
+}
+
+.navbar button i,
+.navbar a {
+    color: white;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.main_card {
+    border-radius: 10px;
+    border-color: white !important;
+}
+
+.card {
+    border-radius: 10px;
+    border: 2px solid #f50414;
+}
+
+input,
+select {
+    box-shadow: none !important;
+}
+
+label {
+    color: #f50414;
+    font-weight: 700;
+}
+
+label.error.fail-alert {
+    color: #f50414;
+    font-weight: 100;
+    float: right;
+}
+
+input:focus,
+select:focus {
+    border: 1px solid #f50414 !important;
+}
+
+.card input,
+.card select {
+    border-radius: 10px;
+}
+
+table thead tr th {
+    background-color: rgb(211, 211, 211) !important;
+    position: sticky;
+    top: 0;
+    opacity: 1 !important;
+}
+
+table thead {
+    border-radius: 8px 8px 0px 0px;
+}
+
+table tbody tr td img {
+    height: 30px;
+    width: 40px;
+    object-fit: contain;
+}
+
+table tbody tr td button i {
+    color: black;
+}
+
+#Main_masters .table-responsive {
+    max-height: 50vh;
+}
+
+.btn_fill {
+    color: white;
+    background-color: #f50414;
+    font-weight: 500;
+    transition: all 0.3s ease-out;
+}
+
+.btn_fill i {
+    vertical-align: middle;
+    font-size: 1.2rem;
+}
+
+.btn_fill:hover {
+    transform: translateY(-2px);
+    color: white;
+    box-shadow: 0px 3px 5px #ff6464 !important;
+}
+
+.btn_submit {
+    color: white;
+    background-color: #f50414;
+    border-radius: 5px;
+    transition: all 0.3s ease-out;
+}
+
+.btn_submit:hover {
+    transform: translateY(-2px);
+    color: white;
+    box-shadow: 0px 3px 5px #ff6464 !important;
+}
+
+@media screen and (max-width: 480px) {
+    .container-fluid {
+        padding: 0px 5px;
+    }
+    .main_card {
+        padding: 10px 8px;
+    }
+}
+
+/*ADD PRODUCTS*/
+
+#main_card_Products form {
+    padding: 5px 10px;
+}
+
+#main_card_Products {
+    border-radius: 10px;
+    border: none;
+    padding: 0;
+}
+
+#main_card_Products .row {
+    padding: 5px 10px;
+}
+
+#main_card_Products .row label {
+    color: #f50414;
+    font-weight: 700;
+}
+
+#main_card_Products .row input:focus,
+#main_card_Products .row select:focus,
+#main_card_Products .row textarea:focus {
+    border: 1px solid #f50414;
+}
+
+#main_card_Products .row input,
+#main_card_Products .row select,
+#main_card_Products .row textarea {
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.masters .card {
+    border: none;
+    box-shadow: 1px 2px 10px lightgrey;
+}
+
+.masters .card .table tbody .btn {
+    padding: 3px 4px;
+    border-radius: 20%;
+}
+
+.masters .card .table tbody .btn:hover {
+    background-color: #f50414;
+}
+
+.masters .card .table tbody .btn:hover i {
+    color: white;
+}
+
+.masters .card .table tbody .btn i {
+    font-size: 1.3rem;
+    vertical-align: middle;
+}
+
+.masters .card .table tbody .brand_img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+
+#pills-tab .nav-item {
+    padding: 5px 10px;
+}
+
+#pills-tab .nav-item .nav-link {
+    border-radius: 30px;
+    width: 150px;
+    color: grey;
+    font-weight: 700;
+}
+
+#pills-tab .nav-item .active {
+    background-color: #f50414;
+    color: white;
+}
+
+/*SERVICE CARDS*/
+
+#offcanvasBottom {
+    width: 100vw;
+    height: 25rem;
+}
+
+.heading {
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='150%' height='150%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='69.141' height='40' patternTransform='scale(1) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(356, 97%, 49%, 1)'/><path d='M69.212 40H46.118L34.57 20 46.118 0h23.094l11.547 20zM57.665 60H34.57L23.023 40 34.57 20h23.095l11.547 20zm0-40H34.57L23.023 0 34.57-20h23.095L69.212 0zM34.57 60H11.476L-.07 40l11.547-20h23.095l11.547 20zm0-40H11.476L-.07 0l11.547-20h23.095L46.118 0zM23.023 40H-.07l-11.547-20L-.07 0h23.094L34.57 20z'  stroke-width='1' stroke='hsla(356, 100%, 80%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.service_cards .card {
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.service_cards .order_info p i {
+    vertical-align: middle;
+    font-size: 1.2rem;
+    line-height: 0.6rem;
+    color: #f50414;
+}
+
+.service_cards .order_info p span {
+    padding-left: 5px;
+}
+
+.service_cards .order_info p {
+    margin: 5px 0px;
+}
+
+.btn_grp {
+    padding: 0px 10px;
+    padding-bottom: 10px;
+}
+
+.btn_fill {
+    border-radius: 50%;
+    color: white;
+    background-color: #f50414;
+    font-weight: 500;
+    transition: all 0.3s ease-out;
+}
+
+.btn_fill:hover {
+    transform: translateY(-2px);
+    color: white;
+    box-shadow: 0px 3px 5px #ff6464 !important;
+}
+
+.btn_fill i {
+    vertical-align: middle;
+    padding-top: 3px;
+}
+
+.btn_cancel {
+    border-radius: 50%;
+    color: white;
+    background-color: #f50414;
+    font-weight: 500;
+    transition: all 0.3s ease-out;
+}
+
+.btn_cancel:hover {
+    transform: translateY(-2px);
+    color: white;
+    box-shadow: 0px 3px 5px #ff6464 !important;
+}
+
+.btn_cancel i {
+    padding-top: 5px;
+}
+
+.search {
+    box-shadow: none;
+    border-radius: 10px;
+}
+
+.service_cards input,
+.service_cards select {
+    box-shadow: none;
+    border-radius: 10px;
+}
+
+.service_cards input:focus,
+.service_cards select:focus {
+    border: 1px solid #f50414 !important;
+}
+
+.filter_all input[type="checkbox"]:checked + label {
+    background-color: #f50414;
+    border-color: #f50414;
+    color: white;
+}
+
+.filter_all input[type="radio"]:checked + label {
+    background-color: #f50414;
+    border-color: #f50414;
+    color: white;
+}
+
+.filter_all label {
+    background-color: white;
+    border-color: #f50414;
+    color: #f50414;
+}
+
+.filter_all label:hover {
+    background-color: #f50414;
+    border-color: #f50414;
+    color: white;
+}
+
+.canvas_foot {
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+}
+
+.btn_cart {
+    color: white;
+    background-color: #f50414;
+    font-weight: 500;
+    transition: all 0.3s ease-out;
+}
+
+.btn_cart:hover {
+    transform: translateY(-2px);
+    color: white;
+    box-shadow: 0px 3px 5px #ff6464 !important;
+}
+
+.service_cards .pickup {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+/*ACTIVE SERVICES*/
+
+.noaction {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.modal-content {
+    border-radius: 10px !important;
+}
+
+.modal-body button:nth-child(1) {
+    background-color: #f50414;
+    width: 100px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.modal-body button:nth-child(2) {
+    background-color: #cecece;
+    width: 100px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+/*SALES ORDERS*/
+
+#date_btn input::-webkit-calendar-picker-indicator {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+    width: 30px;
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='%23FFFFFF.' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 9C7.44772 9 7 9.44771 7 10C7 10.5523 7.44772 11 8 11H16C16.5523 11 17 10.5523 17 10C17 9.44771 16.5523 9 16 9H8Z' fill='%23FFFFFF' /%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM5 18V7H19V18C19 18.5523 18.5523 19 18 19H6C5.44772 19 5 18.5523 5 18Z' fill='%23FFFFFF' /%3E%3C/svg%3E");
+}
+
+#date_btn input {
+    width: 20px;
+}
+
+#date_btn label {
+    display: block;
+    background-color: #f50414;
+}
+
+.InTransit {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+/*ECOMMERCE*/
+
+#left_col {
+    position: fixed;
+}
+
+#right_col .products a {
+    text-decoration: none;
+    color: #f50414;
+}
+
+#right_col .products img {
+    padding-top: 5px;
+    height: 130px;
+    width: 150px;
+    object-fit: contain;
+}
+
+#right_col .products p {
+    font-weight: 500;
+    color: black;
+    margin-bottom: 5px !important;
+}
+
+#right_col .products h6 {
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+#right_col .products button span i {
+    vertical-align: middle;
+}
+
+#right_col .products .card {
+    border-radius: 10px;
+    height: 240px;
+    border: none;
+}
+
+.btn_cart {
+    color: white;
+    background-color: #f50414;
+    font-weight: 500;
+    transition: all 0.3s ease-out;
+}
+
+#left_col .card {
+    border: none;
+}
+
+#left_col .accordion-body label {
+    font-weight: 500;
+    color: black;
+}
+
+#left_col input:focus {
+    border: 1px solid black !important;
+}
+
+#left_col .accordion-body {
+    max-height: 250px;
+    overflow-y: scroll;
+}
+
+#left_col .accordion-body::-webkit-scrollbar {
+    width: 5px;
+}
+
+#left_col .accordion-body::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+#left_col .accordion-body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    border-radius: 10px;
+}
+
+#left_col .accordion-button:not(.collapsed) {
+    background-color: #d3d3d3 !important;
+    color: black !important;
+}
+
+#mobile_search input,
+#mobile_search button {
+    border-radius: 10px;
+}
+
+#mobile_search {
+    position: sticky;
+    top: 4rem;
+    z-index: 999;
+    background-color: #eeeeee;
+}
+
+@media screen and (max-width: 576px) {
+    #right_col .products .card {
+        height: 10.8rem;
+    }
+}
+
+/*PRODUCT DETAIL*/
+
+.product-detail .carousel {
+    height: 60vh;
+}
+
+.product-detail .carousel img {
+    height: 60vh;
+    object-fit: contain;
+}
+
+.product-detail .card {
+    border-radius: 10px;
+    border: none;
+}
+
+.product-detail .details {
+    margin-top: 1.5rem;
+}
+
+#Related_container button i {
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+#Related_container button {
+    color: #f50414;
+    background-color: white;
+    font-weight: 500;
+    border: 1px solid lightgrey;
+    margin-top: 80px;
+    height: 60px;
+    width: 60px;
+}
+
+#left-button {
+    position: absolute;
+    z-index: 99;
+}
+
+#right-button {
+    position: absolute;
+    z-index: 99;
+    margin-left: -60px;
+}
+
+#Related {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+#Related::-webkit-scrollbar {
+    width: 0px;
+}
+
+#Related .card {
+    border: none;
+    height: 12rem;
+    max-width: 10rem;
+    width: 10rem;
+    margin: 0px 10px;
+    padding: 5px 15px;
+}
+
+#Related .card img {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+
+#Related a {
+    text-decoration: none;
+}
+
+#Related .card p {
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    color: #f50414;
+    margin-bottom: 5px !important;
+}
+
+#Related .card h6 {
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel {
+        height: 30vh;
+    }
+    .carousel img {
+        height: 30vh;
+        object-fit: contain;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #Related {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+/*REPORTS*/
+
+.toolbar .card {
+    border: none;
+}
+
+.sales_report thead th {
+    font-weight: 500;
+    background-color: white !important;
+}
+
+.sales_report tbody tr {
+    border-bottom: 1px solid white;
+}
+
+.sales_report .cancelled {
+    background-color: #ffc4c4;
+}
+
+.sales_report .badge-pay {
+    background-color: #77dd77;
+}
+
+.top {
+    padding: 0px 15px;
+    padding-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top .dataTables_filter input {
+    /*min-width: 25rem;*/
+    height: 2rem;
+}
+
+.top .dataTables_length label {
+    padding-left: 150px !important;
+}
+
+.top .dataTables_length label select {
+    height: 2rem;
+    min-width: 5rem;
+    text-align: center;
+}
+
+.bottom {
+    /* border-top: 1px solid lightgray; */
+    padding: 3px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom .dataTables_info {
+    color: rgb(90, 90, 90) !important;
+    font-weight: 500;
+    /* margin-top: -10px; */
+}
+
+.bottom .paginate_button a {
+    /* border-radius: 10px !important; */
+    padding: 3px 8px !important;
+}
+
+.bottom .paginate_button.previous a {
+    border-radius: 10px 0px 0px 10px !important;
+}
+
+.bottom .paginate_button.next a {
+    border-radius: 0px 10px 10px 0px !important;
+}
+
+.bottom .paginate_button a {
+    color: rgb(90, 90, 90);
+    font-weight: 500;
+    box-shadow: none;
+}
+
+.bottom .pagination .active a {
+    background-color: #f50414;
+    border: 1px solid #f50414;
+    color: white;
+}
+
+/*WISHLIST*/
+
+.wishlist .products a {
+    text-decoration: none;
+    color: #f50414;
+}
+
+.wishlist .products img {
+    padding-top: 5px;
+    height: 130px;
+    width: 150px;
+    object-fit: contain;
+}
+
+.wishlist .products p {
+    font-weight: 500;
+    color: black;
+    margin-bottom: 5px !important;
+}
+
+.wishlist .products h6 {
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.wishlist .products button span i {
+    vertical-align: middle;
+}
+
+.wishlist .products .card {
+    border-radius: 10px;
+    border: none;
+}
+
+.btn_wish i {
+    vertical-align: middle;
+}
+
+.btn_wish {
+    border-radius: 50%;
+}
+
+/*SHOPPING CART*/
+
+.shopping_cart .card {
+    border-radius: 10px;
+    border: none;
+}
+
+.shopping_cart .card ul li {
+    padding: 5px 2px;
+}
+
+.shopping_cart .card ul li img {
+    padding: 10px 0px;
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+}
+
+@media only screen and (max-width: 480px) {
+    .shopping_cart .card ul li img {
+        height: 120px;
+        width: 120px;
+        object-fit: contain;
+    }
+    .shopping_cart .card ul li h5 {
+        font-size: 1.1rem;
+    }
+    .shopping_cart .card ul li h4 {
+        font-size: 1.1rem;
+    }
+    #left-button,
+    #right-button {
+        display: none;
+    }
+    #Related {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 10px;
+        display: flex;
+        width: 100%;
+        overflow-x: scroll;
+    }
+}
+
+/*Checkout*/
+
+.checkout .card {
+    border: none;
+    border-radius: 10px;
+    background-color: white !important;
+}
+
+.checkout .card ul li img {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.checkout form .row input,
+.checkout form .row select,
+.checkout form .row textarea {
+    border-radius: 10px !important;
+    box-shadow: none !important;
+}
+
+.checkout form .row input:focus,
+.checkout form .row select:focus,
+.checkout form .row textarea:focus {
+    border: 1px solid #f50414;
+}
+
+.checkout form .row label {
+    color: #f50414;
+    font-weight: 500;
+}
+
+.checkout .small-box {
+    border: 1px solid lightgray;
+}
+
+.back_btn {
+    color: black;
+    background-color: lightgrey;
+    font-weight: 500;
+    transition: all 0.3s ease-out;
+}
+
+.back_btn:hover {
+    transform: translateY(-2px);
+    color: black;
+    box-shadow: 0px 3px 5px rgb(160, 159, 159) !important;
+}
+
+/*CONFIRMATION*/
+
+.confirmation .btn_same {
+    width: 180px;
+}
+
+.confirmation .action_btns {
+    margin-top: 100px;
+}
+
+/*TECHNICIAN*/
+
+.noaction {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.allservice .order_info h6 i {
+    vertical-align: middle;
+    color: #f50414;
+}
+
+.allservice .order_info h6 span {
+    padding-left: 5px;
+}
+
+.services ul li img {
+    height: 50px;
+    width: 80px;
+    object-fit: contain;
+}
+
+.services ul li button i:hover {
+    color: #f50414;
+}
+
+.inside_card {
+    border: 1px solid rgb(191, 190, 190);
+}
+
+.allservice #main_card form {
+    padding: 5px 10px;
+}
+
+.allservice #main_card {
+    border-radius: 10px;
+    border: none;
+    padding: 0;
+}
+
+.allservice #main_card input:focus,
+.allservice #main_card select:focus {
+    border: 1px solid #f50414;
+}
+
+.allservice #main_card input,
+.allservice #main_card select,
+.allservice #main_card textarea {
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+/*DASHBOARD*/
+
+.dashboard .card {
+    border-radius: 10px;
+    border: none;
+}
+
+.dashboard select {
+    border: none !important;
+    border-bottom: 0.1rem solid #f50414 !important;
+    border-radius: 0px !important;
+    background-color: #f7f7f7 !important;
+}
+
+.dashboard select:focus {
+    border: none !important;
+    border-bottom: 0.1rem solid #f50414 !important;
+}
+
+.dashboard input {
+    border: none !important;
+    border-bottom: 0.1rem solid #f50414 !important;
+    border-radius: 0px !important;
+    background-color: #f7f7f7 !important;
+}
+
+.dashboard #centre_select {
+    border: none !important;
+    color: white;
+    border-bottom: 0.1rem solid white !important;
+    border-radius: 0px !important;
+    background-color: #f50414 !important;
+}
+
+.dashboard .card-header {
+    color: #f50414;
+    border-radius: 10px 10px 0px 0px !important;
+}
+
+.dashboard #Table_card {
+    height: 44vh;
+}
+
+.dashboard #Table_card a {
+    text-decoration: none;
+    color: rgb(138, 138, 255);
+}
+
+.dashboard table thead {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.dashboard tbody {
+    font-size: 0.9rem;
+}
+
+.dashboard .success {
+    background-color: #39ff14;
+}
+
+.dashboard .inprogress {
+    background-color: #ff6700;
+}
+
+.dashboard .mincard {
+    border: none;
+    background: none;
+}
+
+.dashboard .mincard-body {
+    border-radius: 8px;
+    border: none;
+}
+
+.dashboard .mincard-col {
+    margin: -12px 0px;
+    color: white;
+}
+
+.dashboard .charts {
+    height: 40vh;
+    width: 100%;
+    position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+    .dashboard .charts {
+        height: 30vh;
+        width: 100%;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .dashboard .charts {
+        height: 30vh;
+        width: 100%;
+        position: relative;
+    }
+}
+
+/*SIDEBAR*/
+
+.offcanvas-body {
+    padding: 0;
+}
+
+.profile img {
+    height: 75px;
+    width: 75px;
+    border: 0.2rem solid #f50414;
+    border-radius: 50%;
+}
+
+.profile {
+    padding: 10px 15px;
+    margin-top: 0px;
+    background-color: #eeeeee;
+}
+
+.profile h6 {
+    margin-top: 5px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #f50414;
+    font-size: 1.1rem;
+    padding: 15px 20px;
+    display: block;
+}
+
+#menu {
+    padding-top: 10px;
+    width: 100%;
+}
+
+#menu li {
+    cursor: pointer;
+}
+
+#menu .active {
+    background-color: #f50414;
+    color: white !important;
+}
+
+#menu li a:hover {
+    background-color: #f50414;
+    color: white !important;
+}
+
+#menu li a i {
+    vertical-align: top;
+    padding-right: 15px;
+}
+
+@media (max-width: 480px) {
+    .offcanvas {
+        width: 80%;
+    }
+}
